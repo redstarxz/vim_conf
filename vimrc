@@ -20,12 +20,23 @@ set showmatch
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
+" 智能tab补全
 Bundle 'SuperTab-continued.'
+" vim 缓冲区浏览器
 Bundle 'bufexplorer.zip'
+" code tag list
 Bundle 'taglist.vim'
+" vim 窗口管理器
 Bundle 'winmanager'
+" 配色增强
 Bundle 'darkblue2.vim'
+" 配色套餐
 Bundle 'wombat256.vim'
+" vim ack插件
+Bundle 'ack.vim'
+" 类，函数注释自动生成插件
+Bundle 'DoxygenToolkit.vim'
+
 
 "set ruler
 "set rulerformat=%20(%2*%<%f%=\ %m%r\ %3l\ %c\ %p%%%)
