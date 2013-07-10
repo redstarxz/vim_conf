@@ -19,6 +19,7 @@ set showmatch
 "在http://vim-scripts.org/vim/scripts.html 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
+" 初始化bundle git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 Bundle 'gmarik/vundle'
 " 智能tab补全
 Bundle 'SuperTab-continued.'
